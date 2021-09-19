@@ -73,7 +73,7 @@
 
 body {
     font-family:'Roboto Slab';
-    
+
 }
 
 .contenedor {
@@ -137,12 +137,80 @@ header {
 
 
 
-    /* Footer */
 
-    .contenedor-footer{
-        flex-direction: column;
-        border: none;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+
+
+
+
+
+
+
+/* BENEFICIOS */
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
 }
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 48%;
+    padding-right: 40px;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+    padding-bottom: 40px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.contenido-textos h3 span{
+    background: #6a696b;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+
+
+/* Footer */
+
+footer{
+    background: #303036;
+    color: rgb(252, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .sociales{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .social{
+    width: 10%;
+    text-align: center;
+    height: 100px;
+  }
+  .copy{
+    border-top: 1px solid #C4C4C4;
+    font-size: 15px;
+    text-align: right;
+    padding: 20px;
+  }
